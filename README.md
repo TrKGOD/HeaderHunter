@@ -19,7 +19,7 @@ HeaderHunter is a Python-based tool designed to analyze and report on HTTP secur
 Clone the repository:
 
 ```Bash
-git clone https://github.com/your-username/headerhunter.git
+git clone https://github.com/TrKGOD/headerhunter.git
 ```
 
 ```Bash
