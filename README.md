@@ -38,7 +38,7 @@ pip install -r requirements.txt
 Run the script using the following syntax:
 
 ```Python
-python3 headerhunter.py [options] <target>
+python3 HeaderHunter.py [options] <target>
 ```
 ```
 Options
@@ -58,13 +58,13 @@ Options
 Analyze a single target with colorized output:
 
 ```Python
-python3 headerhunter.py -p 443 https://example.com
+python3 HeaderHunter.py -p 443 https://example.com
 ```
 
 Analyze multiple targets from a file and export results to JSON:
 
 ```Python
-python3 headerhunter.py --hfile targets.txt -j > results.json
+python3 HeaderHunter.py --hfile targets.txt -j > results.json
 ```
 
 📄 License
