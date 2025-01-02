@@ -59,8 +59,9 @@ Analyze a single target with colorized output:
 
 ```Python
 python3 headerhunter.py -p 443 https://example.com
-Analyze multiple targets from a file and export results to JSON:
 ```
+
+Analyze multiple targets from a file and export results to JSON:
 
 ```Python
 python3 headerhunter.py --hfile targets.txt -j > results.json
