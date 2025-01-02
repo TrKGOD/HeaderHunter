@@ -18,29 +18,29 @@ HeaderHunter is a Python-based tool designed to analyze and report on HTTP secur
 📋 Installation
 Clone the repository:
 
-'''Bash
+```Bash
 git clone https://github.com/your-username/headerhunter.git
-'''
+```
 
-'''Bash
+```Bash
 cd headerhunter
-'''
+```
 
 Ensure Python 3 is installed on your system.
 
 Install required dependencies:
 
-'''Bash
+```Bash
 pip install -r requirements.txt
-'''
+```
 
 📋 Usage
 Run the script using the following syntax:
 
-'''Python
+```Python
 python3 headerhunter.py [options] <target>
-'''
-'''
+```
+```
 Options
 -p, --port: Specify a custom port.
 -c, --cookie: Add cookies to the request.
@@ -52,19 +52,19 @@ Options
 --proxy: Use a proxy (e.g., http://127.0.0.1:8080).
 --hfile: Load a list of targets from a file.
 --colours: Set color profile (dark, light, none).
-'''
+```
 
 ✨ Example
 Analyze a single target with colorized output:
 
-'''Python
+```Python
 python3 headerhunter.py -p 443 https://example.com
 Analyze multiple targets from a file and export results to JSON:
-'''
+```
 
-'''Python
+```Python
 python3 headerhunter.py --hfile targets.txt -j > results.json
-'''
+```
 
 📄 License
 This project is licensed under the GNU General Public License, as per the original tool.
