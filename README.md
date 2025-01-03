@@ -68,7 +68,7 @@ python3 HeaderHunter.py --hfile targets.txt -j > results.json
 ```
 
 📄 License
-This project is licensed under the GNU General Public License, as per the original tool.
+This project is licensed under the GNU General Public License.
 
 🤝 Credits
 Original tool: shcheck by Santoru.
