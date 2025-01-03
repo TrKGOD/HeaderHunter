@@ -12,7 +12,7 @@ import json
 from optparse import OptionParser
 
 # This is a tool that was originally created by Santoru (# Copyright (C) 2019-2021  santoru)
-# I made a few adjustments to the tool to make it more useful for me, with that said, all credits to him
+# I made a few adjustments to the tool to make it more useful for me, adding new features and changing some details, with that said, all credits to him
 # original tool: https://github.com/santoru/shcheck
 #
 # This program is free software: you can redistribute it and/or modify
